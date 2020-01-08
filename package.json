@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "node packages/api/index.js"
+  }
+}
